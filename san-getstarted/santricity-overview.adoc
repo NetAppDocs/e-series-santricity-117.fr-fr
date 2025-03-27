@@ -15,8 +15,8 @@ Les systèmes E-Series incluent le logiciel SANtricity pour le provisionnement d
 
 Ce site explique comment utiliser les interfaces de gestion SANtricity suivantes :
 
-* System Manager : interface Web utilisée pour gérer un contrôleur dans une baie de stockage.
-* Unified Manager :- interface web utilisée pour afficher et gérer toutes les baies de stockage de votre réseau.
+* Gestionnaire système SANtricity : interface web utilisée pour gérer un contrôleur d'une baie de stockage.
+* SANtricity Unified Manager : interface web utilisée pour afficher et gérer toutes les baies de stockage de votre réseau.
 
 
 

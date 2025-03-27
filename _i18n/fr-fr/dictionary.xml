@@ -68,7 +68,6 @@
   <block id="045d1e9a94278a8386d71e58e81fd7a1" category="sidebar">Gérer les mises à niveau</block>
   <block id="8d94d37b5905d67ccf22b375e3bf5c6e" category="sidebar">Mise à niveau des logiciels et des firmwares</block>
   <block id="f446e3c0eca28983e35e282214782584" category="sidebar">Afficher l'état de la matrice</block>
-  <block id="835b7ac0eaf285552b7ec179de33d014" category="sidebar">Lancez System Manager</block>
   <block id="8ebeac47d02da19c4d1cd88ab9d7cca8" category="sidebar">Changer les mots de passe de la matrice</block>
   <block id="a0a3f20685c328a00474bb00b7d35fd5" category="sidebar">Supprimer les matrices de la vue</block>
   <block id="15fc53829e4c837f62e15647e031089c" category="sidebar">Importation des paramètres</block>
@@ -86,7 +85,6 @@
   <block id="bc864bcc140c5518082e93d37b396baf" category="sidebar">Utiliser les certificats d'hôte de gestion</block>
   <block id="0e695c0c9242624f235546e43dde2e16" category="sidebar">Utiliser les certificats de matrice</block>
   <block id="951d3fc54a28f9f46798897467d96a5b" category="sidebar">Gérer les certificats</block>
-  <block id="c62c395ffcd8aa3e5d38fe7155d2f510" category="sidebar">Logiciel SANtricity</block>
   <block id="ba09ee47d11962c1ccd13d7e1f10e6c5" category="summary">Versions antérieures de la documentation</block>
   <block id="93168a8084b3e838d2932c4734bd234e" category="doc">Versions antérieures</block>
   <block id="8616fc8e60c2615a2af5c34293f128b4" category="paragraph">Consultez les liens ci-dessous pour accéder à la documentation relative aux versions antérieures du matériel E-Series et du logiciel SANtricity. Les liens vous mènent à un autre site de documentation.</block>
@@ -121,7 +119,6 @@
   <block id="effd8867201555d9e878c25e6ac1c734" category="inline-link">AIDE EMW (E2700, E5600/EF560)</block>
   <block id="a0b75c365d2e51a35e74402a2c9667cf" category="list-text"><block ref="a0b75c365d2e51a35e74402a2c9667cf" category="inline-link-rx"></block></block>
   <block id="1b89afe60c3c3728ebb581ee0aac3506" category="summary">Unified Manager est une interface web qui permet de gérer plusieurs baies de stockage à partir d'une seule vue.</block>
-  <block id="4dce3cdc79e2e44c19e0286c8128e182" category="doc">Présentation de l'interface de Unified Manager</block>
   <block id="8f8d2783d036ec8dbe4b6b9c1d0fed0d" category="section-title">Page principale</block>
   <block id="edab0a6bffc866b3b3e060784eab4d6a" category="paragraph">Lorsque vous vous connectez à Unified Manager, la page principale s'ouvre sur *Manage - All*. À partir de cette page, vous pouvez faire défiler la liste des matrices de stockage détectées sur votre réseau, afficher leur état et effectuer des opérations sur une seule matrice ou sur un groupe de matrices.</block>
   <block id="bdb2999f28589aad2b040c21930c86dc" category="section-title">Barre latérale de navigation</block>
@@ -152,7 +149,6 @@
   <block id="e59a6d53500e53d3c955f051d0c626ff" category="inline-link-macro">Modifiez les mots de passe des profils utilisateur locaux</block>
   <block id="ce87237c880c7aaf2f1af2e7b845297d" category="list-text"><block ref="ce87237c880c7aaf2f1af2e7b845297d" category="inline-link-macro-rx"></block></block>
   <block id="c905ab540cd89c88f522731c7c764a87" category="summary">Vous pouvez modifier le mot de passe d'administration utilisé pour accéder à SANtricity Unified Manager.</block>
-  <block id="f33a46d17adbb22063054d82821f25b7" category="paragraph">Vous pouvez modifier le mot de passe d'administration utilisé pour accéder à Unified Manager.</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">Avant de commencer</block>
   <block id="cd6788558cc7e0923a1c2358b16319f3" category="list-text">Vous devez être connecté en tant qu'administrateur local, qui inclut les autorisations d'administrateur racine.</block>
   <block id="bd6118611ef18d79d9e7eedceea12308" category="list-text">Vous devez connaître le mot de passe d'administration actuel.</block>
@@ -172,7 +168,6 @@
   <block id="4fd26e85daa45f71c7c9a886f11f5797" category="list-text">Saisissez le nouveau mot de passe dans les deux champs.</block>
   <block id="4210c9f98a5dc1ea45fd7d0d2dee8ef2" category="list-text">Entrez votre mot de passe administrateur local pour confirmer cette opération, puis cliquez sur *Modifier*.</block>
   <block id="c5140ae7574b7c90722120fd0af36a50" category="summary">Vous devez configurer SANtricity Unified Manager avec un mot de passe d'administrateur pour le protéger contre tout accès non autorisé.</block>
-  <block id="eeba445787fc95d90b8233e19693857b" category="paragraph">Vous devez configurer Unified Manager avec un mot de passe d'administrateur pour le protéger contre tout accès non autorisé.</block>
   <block id="1115a6e562080201b09b1af0e9c4f13a" category="section-title">Mot de passe administrateur et profils utilisateur</block>
   <block id="95bd4ed85be27a910b2d6e09c064718e" category="paragraph">Lorsque vous démarrez Unified Manager pour la première fois, vous êtes invité à définir un mot de passe administrateur. Tout utilisateur disposant du mot de passe administrateur peut modifier la configuration des matrices de stockage.</block>
   <block id="2832434af291fd456a913710178e09e2" category="inline-link-macro">Fonctionnement de Access Management</block>
@@ -185,7 +180,6 @@
   <block id="2f8dca464fb973f09d9647570e912987" category="paragraph">Vous pouvez régler les délais de session ou désactiver complètement les délais de session. Pour plus d'informations, voir <block ref="491ec1fb8cfb51b8b30aff1b660d5fdc" category="inline-link-macro-rx"></block>.</block>
   <block id="2e427df5c1b5f1934e9cdd88bb2c3cb2" category="summary">SANtricity Unified Manager est accessible depuis plusieurs types de navigateurs.</block>
   <block id="6d84e3718084e0db779da4ff8791a2f2" category="doc">Navigateurs pris en charge</block>
-  <block id="6d5a07028844be42740ba8ef0ebc030a" category="paragraph">Unified Manager est accessible depuis plusieurs types de navigateurs.</block>
   <block id="726e62b65e8dfa097c99ac497e95cf5c" category="paragraph">Les navigateurs et versions suivants sont pris en charge.</block>
   <block id="ef15fd2f45e6bb5ce57587895ba64f93" category="cell">Navigateur</block>
   <block id="d0a2e00895462c37efe5227c5b94faae" category="cell">Version minimale</block>
@@ -204,7 +198,6 @@
   <block id="0ce99b430e0880d9c5b01d46d038d4dd" category="summary">SANtricity Unified Manager 5</block>
   <block id="8f2804311a0084d47f6c63f97e6d6ced" category="summary">Vous pouvez mettre à jour les mots de passe utilisés pour afficher et accéder aux baies de stockage dans SANtricity Unified Manager.</block>
   <block id="2aebbeed1009439a37c2d8cc2d3c3b8c" category="doc">Changer les mots de passe des matrices de stockage</block>
-  <block id="56384fe256eff96c1a56aee05a2e3fbb" category="paragraph">Vous pouvez mettre à jour les mots de passe utilisés pour afficher et accéder aux matrices de stockage dans Unified Manager.</block>
   <block id="3e06700262909cb379674ee849478971" category="list-text">Vous devez être connecté avec un profil utilisateur qui inclut les autorisations d'administrateur de stockage.</block>
   <block id="6200b57bba4734c357cfd4a38fa16a12" category="list-text">Vous devez connaître le mot de passe actuel de la baie de stockage, qui est défini dans System Manager.</block>
   <block id="5d0efaa3695cc3970597a53c9f03654a" category="paragraph">Dans cette tâche, vous entrez le mot de passe actuel d'une matrice de stockage afin de pouvoir y accéder dans Unified Manager. Cela peut être nécessaire si le mot de passe de la baie a été modifié dans System Manager et qu'il doit maintenant être également modifié dans Unified Manager.</block>
@@ -212,7 +205,6 @@
   <block id="e5d29807b71c6680617647dafa4db722" category="list-text">Menu sélection:tâches rares[fournir des mots de passe de matrice de stockage].</block>
   <block id="b6deb366a7ea029beae2c06ae5edbee7" category="list-text">Entrez le mot de passe ou les mots de passe pour chaque matrice de stockage, puis cliquez sur *Enregistrer*.</block>
   <block id="a1f94f83462c2ceebb1aef9832402037" category="summary">Vous pouvez configurer les délais d'attente pour SANtricity Unified Manager, de sorte que les sessions inactives des utilisateurs soient déconnectées au bout d'un délai spécifié.</block>
-  <block id="8ad7e04aaecd791134a5e260a985aa04" category="paragraph">Vous pouvez configurer les délais d'expiration pour Unified Manager de sorte que les sessions inactives des utilisateurs soient déconnectées au bout d'un délai spécifié.</block>
   <block id="90bc078771cba1fa174144730e743ae1" category="paragraph">Par défaut, le délai d'expiration de la session pour Unified Manager est de 30 minutes. Vous pouvez régler cette heure ou désactiver complètement les délais de session.</block>
   <block id="5cdc5e794d92075b65fddab1a4df3b77" category="list-text">Dans la barre de menus, sélectionnez la flèche de la liste déroulante à côté de votre nom de connexion utilisateur.</block>
   <block id="dc5fab46b780f9174c45cb0a79e538b6" category="list-text">Sélectionnez *Activer/Désactiver le délai de session*.</block>
@@ -713,7 +705,6 @@
   <block id="b62361027a61e592e1d5786d70e5cb82" category="paragraph">Si aucune capacité disponible n'existe sur un pool ou un groupe de volumes, vous pouvez ajouter de la capacité non configurée sous la forme de disques inutilisés à un pool ou à un groupe de volumes.</block>
   <block id="7f29556c75106b05f3d2b4179dcc2406" category="summary">Si vous avez créé un volume primaire sur une baie de stockage existante qui ne peut pas être gérée par SANtricity System Manager, vous pouvez créer le volume secondaire sur cette baie à l'aide de System Manager.</block>
   <block id="87b4e06d5443a380cc83c83c3d590d35" category="doc">Paire mise en miroir complète pour les volumes primaires créés sur le système existant</block>
-  <block id="abe482b981924f3c0e95f1bdc14f29dc" category="paragraph">Si vous avez créé un volume primaire sur une baie de stockage existante qui ne peut pas être gérée par System Manager, vous pouvez créer le volume secondaire sur cette baie à l'aide de System Manager.</block>
   <block id="380f85f6054e74968d72b39236e80732" category="paragraph">Vous pouvez réaliser une mise en miroir asynchrone entre les baies existantes qui utilisent une interface différente et les baies plus récentes pouvant être gérées par System Manager.</block>
   <block id="33560e79148fad52472bc34df24ac293" category="list-text">Si vous effectuez une mise en miroir entre deux matrices de stockage qui utilisent System Manager, vous pouvez ignorer cette tâche car vous avez déjà terminé la paire en miroir dans la séquence de création de paires en miroir.</block>
   <block id="d680891c022a8b76135d7b350bcfef66" category="list-text">Effectuez cette tâche sur la matrice de stockage distante.</block>
@@ -3942,7 +3933,6 @@ REMARQUE : cette fonctionnalité n'est pas disponible sur les systèmes de stock
   <block id="2d987f31c5c642d85017826d9f304507" category="paragraph">Volume standard du système E-Series qui permet d'accéder aux données à un périphérique de stockage distant.</block>
   <block id="5529f79a50b85422a46f2851156e97bf" category="paragraph">Conteneur dans lequel les données sont stockées. Il s'agit du composant logique créé pour que l'hôte puisse accéder aux données.</block>
   <block id="11922e324623e8ee6795b38fc97026aa" category="summary">Dans SANtricity System Manager, vous pouvez créer des volumes en suivant ces étapes.</block>
-  <block id="26eaac99fa3741d6e7305e93cad51def" category="paragraph">Dans System Manager, vous pouvez créer des volumes en suivant ces étapes.</block>
   <block id="8774cdb9b7bf373fd360b697dfc73074" category="image-alt">les volumes flw sam1130 sont créés</block>
   <block id="fade761e2e1e2f56c7032bce221630e8" category="summary">Vous pouvez modifier les paramètres d'un groupe de volumes, y compris son nom et son niveau RAID.</block>
   <block id="5ad021e16281b4879f5a6b5a677244df" category="doc">Modifiez les paramètres de configuration d'un groupe de volumes</block>
@@ -4003,7 +3993,6 @@ REMARQUE : cette fonctionnalité n'est pas disponible sur les systèmes de stock
   <block id="91d388ab2a6ac649e3e39aa1f5535eef" category="doc">Pourquoi ne puis-je pas supprimer la charge de travail sélectionnée ?</block>
   <block id="7589dd9416261212740c49b4796da6dc" category="doc">Pourquoi ces volumes ne sont-ils pas associés à une charge de travail ?</block>
   <block id="b0e20a5b05a72022c8f53f4a8d3aea80" category="summary">La documentation du logiciel SANtricity vous permet d'installer, de configurer et de gérer votre baie de stockage.</block>
-  <block id="6328cfb48c2111f6991ccd01603442ab" category="doc">Gestion de baie unique avec System Manager 11.7</block>
   <block id="fa17f7317e2d4c9c29b39188c6c0138f" category="summary">Vous pouvez importer la configuration système d'une matrice de stockage vers d'autres matrices de stockage. Cette opération de traitement par lot permet de gagner du temps lorsque vous devez configurer plusieurs baies sur le réseau.</block>
   <block id="5126dceabfed710136e7f3cc807ae531" category="doc">Importer les paramètres système</block>
   <block id="3020e8cef105c55f53d059525fa52528" category="list-text">Les paramètres système sont configurés dans System Manager pour la matrice de stockage que vous souhaitez utiliser comme source.</block>
@@ -4021,7 +4010,6 @@ REMARQUE : cette fonctionnalité n'est pas disponible sur les systèmes de stock
   <block id="d856dd7f06174b4ea43d1a3d8b97ad9f" category="paragraph">Les matrices de stockage cibles sont maintenant configurées avec les mêmes paramètres système que la matrice source.</block>
   <block id="bd5c1b4a761c6f196221f804787289cb" category="summary">Vous pouvez utiliser l'option lancer pour ouvrir SANtricity System Manager basé sur navigateur pour une ou plusieurs baies de stockage lorsque vous souhaitez effectuer des opérations de gestion.</block>
   <block id="c911e68fc2d0d4330e7c34bd2941a90f" category="doc">Gérer une baie de stockage individuelle</block>
-  <block id="8911f9d4a79da70f2e2f26cc33ada8aa" category="paragraph">Vous pouvez utiliser l'option lancer pour ouvrir System Manager basé sur navigateur pour une ou plusieurs baies de stockage lorsque vous souhaitez effectuer des opérations de gestion.</block>
   <block id="dc81e35ba70439bdea73c9ca731dedc7" category="list-text">Dans la page gérer, sélectionnez une ou plusieurs matrices de stockage à gérer.</block>
   <block id="3eab8ee0f45fd9624973c05ec4303d5a" category="list-text">Cliquez sur *lancer*.</block>
   <block id="a269bd71b079afa7d2ec900d0f51428d" category="paragraph">Le système ouvre une nouvelle fenêtre et affiche la page de connexion de System Manager.</block>
@@ -4106,7 +4094,6 @@ REMARQUE : cette fonctionnalité n'est pas disponible sur les systèmes de stock
   <block id="9a2322dec60d95a72c3020f689531591" category="list-text"><block ref="9a2322dec60d95a72c3020f689531591" category="inline-link-macro-rx"></block></block>
   <block id="7671664858be05fdbfc7ebd9e330e072" category="summary">Avant que Unified Manager puisse afficher et gérer les ressources de stockage, il doit découvrir les baies de stockage que vous souhaitez gérer dans le réseau de votre entreprise. Vous pouvez détecter plusieurs baies ou une seule.</block>
   <block id="072bbf879ecafdb82ab2e4349cfd42b5" category="doc">Considérations relatives à la détection des baies</block>
-  <block id="9b4ac681029804460c9ba68ebc344819" category="paragraph">Avant que Unified Manager puisse afficher et gérer les ressources de stockage, il doit détecter les baies de stockage que vous souhaitez gérer dans le réseau de votre entreprise. Vous pouvez détecter plusieurs baies ou une seule.</block>
   <block id="d316240204769eb0f31faba6852de25e" category="section-title">Détection des nombreuses baies de stockage</block>
   <block id="c1180fcf0651dd21fc1fde9763788bc7" category="paragraph">Si vous choisissez de détecter plusieurs baies, vous entrez une plage d'adresses IP réseau, puis Unified Manager tente de connecter individuellement chaque adresse IP de cette plage. Toute matrice de stockage atteinte s'affiche sur la page découverte et peut être ajoutée à votre domaine de gestion.</block>
   <block id="429de7c9197491bab6d29f7b2cb5f688" category="section-title">Détection d'une seule baie de stockage</block>
@@ -4160,7 +4147,6 @@ REMARQUE : cette fonctionnalité n'est pas disponible sur les systèmes de stock
   <block id="08a038d98290bf4f3a988b5b930953b6" category="list-text">Pour la mise en miroir asynchrone, les attributs de volume fin entre le volume primaire et le volume secondaire ne correspondent pas.</block>
   <block id="d18c8b00e80b505406982d1c60493e63" category="summary">Vous pouvez supprimer une ou plusieurs baies de stockage si vous ne souhaitez plus la gérer depuis SANtricity Unified Manager.</block>
   <block id="bc54c8923d2e900bc8b88d98dcd843d0" category="doc">Retirez les baies de stockage de SANtricity Unified Manager</block>
-  <block id="0c9f801d60084ecd96df66d961171ed0" category="paragraph">Vous pouvez supprimer une ou plusieurs baies de stockage si vous ne souhaitez plus la gérer depuis Unified Manager.</block>
   <block id="46da89f7644863b59a53669234ecf705" category="paragraph">Vous ne pouvez accéder à aucune des baies de stockage que vous supprimez. Vous pouvez cependant établir une connexion avec n'importe quelle baie de stockage supprimée en pointant directement un navigateur vers son adresse IP ou son nom d'hôte.</block>
   <block id="928414d532f3a0bd88fe01efa33e49cc" category="paragraph">La suppression d'une matrice de stockage n'affecte en aucune façon la matrice de stockage ou ses données. Si une matrice de stockage est accidentellement retirée, elle peut être ajoutée à nouveau.</block>
   <block id="c0906399540cc4c4cd2789192cf8a8b0" category="list-text">Sélectionnez la page *gérer*.</block>
@@ -4426,7 +4412,6 @@ REMARQUE : cette fonctionnalité n'est pas disponible sur les systèmes de stock
   <block id="fc0fc4bcfa8e77ccbe825eb40749b735" category="paragraph">Ces volumes sont requis pour que le contrôleur puisse enregistrer de manière persistante les informations requises pour maintenir la mise en miroir à l'état opérationnel. Elles contiennent des informations telles que les journaux delta et les données de copie sur écriture.</block>
   <block id="839a15232e75363abd83283c12dccb75" category="summary">Si plusieurs volumes sont présents dans un pool ou un groupe de volumes qui correspond au pourcentage de capacité sélectionné pour l'objet de stockage, plusieurs candidats s'affichent.</block>
   <block id="bcd2040d9a3029641d27c34b32354648" category="summary">Vous sélectionnez une ou plusieurs baies de stockage et utilisez l'option de lancement pour ouvrir SANtricity System Manager lorsque vous souhaitez configurer et gérer les baies de stockage.</block>
-  <block id="625735d117f75d6e7141cef378902859" category="paragraph">Vous sélectionnez une ou plusieurs baies de stockage et utilisez l'option de lancement pour ouvrir System Manager lorsque vous souhaitez configurer et gérer les matrices de stockage.</block>
   <block id="e2de2b40f2bec701c57fd2fbde183531" category="paragraph">System Manager est une application intégrée aux contrôleurs, qui est connectée au réseau via un port de gestion Ethernet. Il inclut toutes les fonctions basées sur la baie.</block>
   <block id="97c771fec542c151941358c9507e1818" category="paragraph">Pour accéder à System Manager, vous devez disposer :</block>
   <block id="d2bf6cf91aae10964c05d43904777ddb" category="inline-link-macro">Présentation du matériel E-Series</block>
@@ -4473,7 +4458,6 @@ REMARQUE : cette fonctionnalité n'est pas disponible sur les systèmes de stock
   <block id="8f71af4dbe4497365aac35b2058f89d7" category="list-text">Dans la page *opérations*, consultez les résultats de l'opération Paramètres d'importation.</block>
   <block id="4fe5208fe8ba8110b56b8acc0c96d17e" category="summary">La fonction Importer les paramètres est une opération par lots qui charge les configurations d'une matrice de stockage à plusieurs matrices de stockage. Les paramètres importés lors de cette opération dépendent de la configuration de la baie de stockage source dans SANtricity System Manager.</block>
   <block id="d77d1605f41e6be3f550ae05cfaca17d" category="doc">Quels paramètres seront importés ?</block>
-  <block id="c7f22d49f002f26198a719f2496c2e98" category="paragraph">La fonction Importer les paramètres est une opération par lots qui charge les configurations d'une matrice de stockage à plusieurs matrices de stockage. Les paramètres importés lors de cette opération dépendent de la configuration de la baie de stockage source dans System Manager.</block>
   <block id="eb66762bbeb3f99c598499dad7ab6419" category="paragraph">Les paramètres suivants peuvent être importés dans plusieurs matrices de stockage :</block>
   <block id="25e8a6fd63ed997760d824ab39cd4591" category="list-text">*Alertes par e-mail* -- les paramètres incluent une adresse de serveur de messagerie et les adresses e-mail des destinataires de l'alerte.</block>
   <block id="6dad188816c45ced8208980247910468" category="list-text">*Syslog Alerts* -- les paramètres incluent une adresse de serveur syslog et un port UDP.</block>
@@ -4627,7 +4611,6 @@ Une fois la vérification préalable à la mise à niveau terminée, l'activatio
   <block id="bb1f88810526aebb75a95b8b6e03e6cb" category="paragraph">Le certificat est supprimé de la table.</block>
   <block id="7f5fc7f5a6cfd2d629daa43027091634" category="summary">Les fonctionnalités RBAC (contrôle d'accès basé sur des rôles) comprennent des utilisateurs prédéfinis avec un ou plusieurs rôles qui leur sont associés. Chaque rôle inclut des autorisations d'accès aux tâches dans SANtricity Unified Manager.</block>
   <block id="262eb45cac9556326049423e63e6c21c" category="doc">Autorisations pour les rôles mappés</block>
-  <block id="b6d27003498a8efabd89c3632f305a38" category="paragraph">Les fonctionnalités RBAC (contrôle d'accès basé sur des rôles) comprennent des utilisateurs prédéfinis avec un ou plusieurs rôles qui leur sont associés. Chaque rôle inclut des autorisations d'accès aux tâches dans Unified Manager.</block>
   <block id="536f38e388f0e686eaac049b4bfaf373" category="paragraph">Les rôles permettent à l'utilisateur d'accéder aux tâches comme suit :</block>
   <block id="c682da937c01c9699a2f1fe4314bb7a1" category="list-text">*Storage admin* -- accès en lecture/écriture complet aux objets de stockage sur les baies, mais pas à la configuration de sécurité.</block>
   <block id="f3edf224e12ff35c9cb445ef9d83558b" category="list-text">*Security admin* -- accès à la configuration de sécurité dans Access Management et Certificate Management.</block>
@@ -4654,7 +4637,6 @@ Une fois la vérification préalable à la mise à niveau terminée, l'activatio
   <block id="4184d6ac97aa74061d28478ab8dbe8d0" category="list-text">*rw* (lecture/écriture) -- cet utilisateur comprend les rôles suivants : administrateur de stockage, administrateur de support et moniteur. Ce compte est désactivé jusqu'à ce qu'un mot de passe soit défini.</block>
   <block id="12f62570f7b21772e82a534ca6dde3d5" category="list-text">*Ro* (lecture seule) -- cet utilisateur n'inclut que le rôle moniteur. Ce compte est désactivé jusqu'à ce qu'un mot de passe soit défini.</block>
   <block id="5d5b10ce79f5c0dc539334629d62d864" category="summary">Utilisez la gestion des accès pour établir l'authentification des utilisateurs dans SANtricity Unified Manager.</block>
-  <block id="44e7f9b14d94f37d603139d60643ff98" category="paragraph">Utilisez Access Management pour établir l'authentification des utilisateurs dans Unified Manager.</block>
   <block id="f40760940eef8069f0bcacc614829c32" category="paragraph">La configuration de Access Management fonctionne comme suit :</block>
   <block id="80cebe0082fb9e9d2629ddbf03a45e94" category="list-text">Un administrateur se connecte à Unified Manager avec un profil utilisateur qui inclut les autorisations d'administrateur de sécurité.</block>
   <block id="2ff565b6d3ae8906f3c4fac50daf31d4" category="paragraph">Pour la première connexion, le nom d'utilisateur<block ref="21232f297a57a5a743894a0e4a801fc3" prefix=" " category="inline-code"></block> s'affiche automatiquement et ne peut pas être modifié. Le<block ref="21232f297a57a5a743894a0e4a801fc3" prefix=" " category="inline-code"></block> l'utilisateur dispose d'un accès complet à toutes les fonctions du système. Le mot de passe doit être défini lors de la première connexion.</block>
@@ -4756,7 +4738,6 @@ Une fois la vérification préalable à la mise à niveau terminée, l'activatio
   <block id="36657c00542af4ae881c5d4172f11e7f" category="list-text">Si vous le souhaitez, cliquez sur *Ajouter un autre mappage* pour entrer plus de mappages de groupe à rôle.</block>
   <block id="e1b68ee4aa4066c82dae8c2b6a7bd2c7" category="summary">Découvrez comment les termes de gestion des accès s'appliquent à SANtricity Unified Manager.</block>
   <block id="63629e9e373cc31e6b4e5e89b63a6c1c" category="doc">Terminologie de la gestion des accès</block>
-  <block id="64aa268315e67fd45e17bcf91ff30bab" category="paragraph">Découvrez comment les termes de gestion des accès s'appliquent à Unified Manager.</block>
   <block id="4fbbbcdfcdfad5270a20167c67509f0b" category="paragraph">Active Directory</block>
   <block id="f08c83999b8fa7001f3f850f4b7b86bf" category="paragraph">Active Directory (AD) est un service d'annuaire Microsoft qui utilise LDAP pour les réseaux de domaine Windows.</block>
   <block id="a2ebfe0e8e16f2c81865ce3da74bc605" category="paragraph">Reliure</block>
@@ -4775,7 +4756,6 @@ Une fois la vérification préalable à la mise à niveau terminée, l'activatio
   <block id="431e34c6a97c9d5d28df130a10fa0c0a" category="paragraph">Le proxy de services Web, qui fournit un accès via des mécanismes HTTPS standard, permet aux administrateurs de configurer des services de gestion pour les matrices de stockage. Le proxy peut être installé sur des hôtes Windows ou Linux. L'interface Unified Manager est disponible avec le proxy de services Web.</block>
   <block id="b9cba881bdd58bf9df0da788dc1b2941" category="summary">Dans l'onglet rôles d'utilisateur local, vous pouvez afficher les mappages des utilisateurs sur les rôles par défaut. Ces mappages font partie du RBAC (contrôle d'accès basé sur des rôles) appliqué dans le proxy de services Web pour SANtricity Unified Manager.</block>
   <block id="4f9286157c4a39a4a44a216160d5b42b" category="doc">Afficher les rôles d'utilisateur local</block>
-  <block id="a0363d5fd0c0b077d52f4784dbe2bec9" category="paragraph">Dans l'onglet rôles d'utilisateur local, vous pouvez afficher les mappages des utilisateurs sur les rôles par défaut. Ces mappages font partie du RBAC (contrôle d'accès basé sur des rôles) appliqué dans le proxy de services Web pour Unified Manager.</block>
   <block id="73ac0b03481ca2066ed032fc9c2875c2" category="paragraph">Les utilisateurs et les mappages ne peuvent pas être modifiés. Seuls les mots de passe peuvent être modifiés.</block>
   <block id="c5c570ddef1c2b01ec882c74deba2a55" category="paragraph">Les utilisateurs sont présentés dans le tableau :</block>
   <block id="2bf59aca4b70fb1e276f68737ab54888" category="list-text">*Admin* -- Super administrateur qui a accès à toutes les fonctions du système. Cet utilisateur inclut tous les rôles.</block>
@@ -4801,7 +4781,6 @@ Une fois la vérification préalable à la mise à niveau terminée, l'activatio
   <block id="78620fb7eda6cb105045681ab3541f53" category="list-text"><block ref="78620fb7eda6cb105045681ab3541f53" category="inline-link-macro-rx"></block></block>
   <block id="34919a9493354af06c60b6a7efe26f66" category="summary">Pour configurer l'authentification pour Access Management, vous établissez des communications entre un serveur LDAP et l'hôte exécutant le proxy de services Web pour SANtricity Unified Manager. Vous associez ensuite les groupes d'utilisateurs LDAP aux rôles d'utilisateur local.</block>
   <block id="b828924e6cb61c82f7d84db873261628" category="doc">Ajouter un serveur de répertoire</block>
-  <block id="4414343c3416e84cd36e3cad4675e6cf" category="paragraph">Pour configurer l'authentification pour Access Management, vous établissez des communications entre un serveur LDAP et l'hôte exécutant Web Services Proxy pour Unified Manager. Vous associez ensuite les groupes d'utilisateurs LDAP aux rôles d'utilisateur local.</block>
   <block id="0278292737686e16c85eb64c7a72864c" category="list-text">Les groupes d'utilisateurs doivent être définis dans votre service d'annuaire.</block>
   <block id="e29e36ab1efa826c0f0f99155fcf6856" category="list-text">Les informations d'identification du serveur LDAP doivent être disponibles, y compris le nom de domaine, l'URL du serveur, et éventuellement le nom d'utilisateur et le mot de passe du compte BIND.</block>
   <block id="1bdb10098b71cd7c245b78b98d4f0026" category="list-text">Pour les serveurs LDAPS utilisant un protocole sécurisé, la chaîne de certificats du serveur LDAP doit être installée sur votre ordinateur local.</block>
@@ -4856,7 +4835,6 @@ Une fois la vérification préalable à la mise à niveau terminée, l'activatio
   <block id="f131afe2eabed5b381e5517af0e2e91e" category="paragraph">Magasin de confiance</block>
   <block id="cf93328a82ffe3d054899b90fbfeed65" category="paragraph">Un magasin de confiance est un référentiel qui contient des certificats de tiers de confiance, tels que les autorités de certification.</block>
   <block id="8e2a365bae244df40d20169523b4c250" category="summary">Si nécessaire, vous pouvez importer des certificats pour les baies de stockage afin qu'ils puissent s'authentifier auprès du système qui héberge SANtricity Unified Manager. Les certificats peuvent être signés par une autorité de certification ou être auto-signés.</block>
-  <block id="e6170c93eb142fb01923e9f9b0ef39f7" category="paragraph">Si nécessaire, vous pouvez importer des certificats pour les baies de stockage afin qu'ils puissent s'authentifier auprès du système hébergeant Unified Manager. Les certificats peuvent être signés par une autorité de certification ou être auto-signés.</block>
   <block id="35bc59ae8725a73f71e22d5b7e2eda45" category="list-text">Si vous importez des certificats approuvés, les certificats doivent être importés pour les contrôleurs de la matrice de stockage à l'aide de System Manager.</block>
   <block id="2e55526b44721ea9359f246eaaf629e3" category="paragraph">Cette page affiche tous les certificats signalés pour les matrices de stockage.</block>
   <block id="2f3bb55cd5666e46843ed94b99f1cc9c" category="list-text">Sélectionnez menu:Import[Certificates] pour importer un certificat CA ou menu:Import[certificats de tableau de stockage auto-signés] pour importer un certificat auto-signé.</block>
@@ -4865,7 +4843,6 @@ Une fois la vérification préalable à la mise à niveau terminée, l'activatio
   <block id="bb17519c0e047380a70a0cf2fe58a6f2" category="paragraph">Le certificat est téléchargé et validé.</block>
   <block id="061e64cad01b4cd81351026b626d0e7e" category="summary">Les administrateurs peuvent utiliser des fonctionnalités RBAC (contrôle d'accès basé sur des rôles) appliquées dans SANtricity Unified Manager. Ces fonctionnalités sont appelées rôles d'utilisateur local.</block>
   <block id="6ba77b0cd960c73addcfcddf1a0a7678" category="doc">Gestion des accès avec rôles d'utilisateur local</block>
-  <block id="ba501c87876b2abc6f333f2281c9b0d8" category="paragraph">Les administrateurs peuvent utiliser des fonctionnalités RBAC (contrôle d'accès basé sur des rôles) appliquées dans Unified Manager. Ces fonctionnalités sont appelées « rôles utilisateur locaux ».</block>
   <block id="8605565fad22723762c246b949a49067" category="paragraph">Les rôles d'utilisateur local sont préconfigurés dans le système. Pour utiliser les rôles d'utilisateur local pour l'authentification, les administrateurs peuvent effectuer les opérations suivantes :</block>
   <block id="56fd628ff241b004eb707c3ad9cdca7b" category="list-text">Un administrateur examine les profils utilisateur, qui sont prédéfinis et ne peuvent pas être modifiés.</block>
   <block id="e8417cc5080dc22a9bd417b8ef4a92aa" category="list-text">L'administrateur affecte éventuellement de nouveaux mots de passe pour chaque profil utilisateur.</block>
@@ -4891,7 +4868,6 @@ Une fois la vérification préalable à la mise à niveau terminée, l'activatio
   <block id="4e659f859cf08d5887aa434a7f8bd662" category="paragraph">Au cours d'une session Unified Manager, des messages de sécurité supplémentaires peuvent s'afficher lorsque vous tentez d'accéder à un contrôleur qui ne possède pas de certificat signé par une autorité de certification. Dans ce cas, vous pouvez faire confiance de façon permanente au certificat auto-signé ou importer les certificats signés par l'autorité de certification pour les contrôleurs afin que le serveur proxy des services Web puisse authentifier les demandes client entrantes de ces contrôleurs.</block>
   <block id="6537b14ab86690459051b15913eed344" category="summary">Des certificats non fiables se produisent lorsqu'une baie de stockage tente d'établir une connexion sécurisée à SANtricity Unified Manager, mais la connexion ne parvient pas à confirmer la sécurité.</block>
   <block id="57978b55e3a3b1f8e477379b56230f8e" category="doc">Résoudre les certificats non fiables</block>
-  <block id="06ae56054017bbf48392ef1bea4dfe7b" category="paragraph">Des certificats non fiables se produisent lorsqu'une baie de stockage tente d'établir une connexion sécurisée à Unified Manager, mais que la connexion ne parvient pas à confirmer la sécurité.</block>
   <block id="235d7e3807db91d7961342f6d13f3e3b" category="paragraph">À partir de la page certificat, vous pouvez résoudre les certificats non approuvés en important un certificat auto-signé de la matrice de stockage ou en important un certificat d'autorité de certification (CA) émis par un tiers de confiance.</block>
   <block id="951e2883c6a23f655f16e49f82ab2244" category="list-text">Si vous prévoyez d'importer un certificat signé par une autorité de certification :</block>
   <block id="f1260c6add938f658d4fa1c233c69f76" category="list-text">Vous avez généré une demande de signature de certificat (.CSR file) pour chaque contrôleur de la matrice de stockage et l'avez envoyée à l'autorité de certification.</block>
@@ -4938,7 +4914,6 @@ Une fois la vérification préalable à la mise à niveau terminée, l'activatio
   <block id="b0bb92fee06d1badcc06e51e91665db6" category="paragraph">Les fichiers sont chargés et validés. Les informations de certificat s'affichent sur la page gestion des certificats.</block>
   <block id="8a26f9c1af451d8775363a647445ae49" category="summary">Access Management est une méthode de configuration de l'authentification utilisateur dans SANtricity Unified Manager.</block>
   <block id="8a85e54e2f698ad0de66d093245f2e66" category="doc">Présentation de Access Management</block>
-  <block id="d1cc45589c0084f17d53b1764541acde" category="paragraph">Access Management est une méthode de configuration de l'authentification des utilisateurs dans Unified Manager.</block>
   <block id="ed5fe7f66e9072ed2fe64e1c8ad6737d" category="section-title">Quelles sont les méthodes d'authentification disponibles ?</block>
   <block id="41315c44be734de1ba40d7ac966572b8" category="paragraph">Les méthodes d'authentification suivantes sont disponibles :</block>
   <block id="d49c4941abd4cbf48ddd6db7bbbb59b9" category="list-text">*Rôles d'utilisateur local* -- l'authentification est gérée via les fonctions RBAC (contrôle d'accès basé sur les rôles). Les rôles des utilisateurs locaux comprennent des profils utilisateur prédéfinis et des rôles avec des autorisations d'accès spécifiques.</block>
@@ -5036,7 +5011,6 @@ qui nécessite également l'importation d'un fichier de clé privée avec le cer
   <block id="0cc11689ab61cad1affdb347b83db24b" category="paragraph">La définition de la ligne de base définit un nouveau point de départ pour la collecte des statistiques. La même base est utilisée pour toutes les statistiques NVMe.</block>
   <block id="3c625277723f7e35643a56ecccb51d80" category="summary">System Manager vous pouvez télécharger le pack de l'interface de ligne de commandes.</block>
   <block id="b44398f4857f5ee9b5b3372c0d3a83ac" category="doc">Télécharger l'interface de ligne de commande</block>
-  <block id="934757b9623717972adcc349e85d6283" category="paragraph">Depuis System Manager, vous pouvez télécharger le pack de l'interface de ligne de commandes.</block>
   <block id="f0edcadd28eaa53b81b22a31b44b45b9" category="paragraph">La CLI fournit une méthode de configuration et de contrôle des matrices de stockage au format texte. Il communique via https et utilise la même syntaxe que la CLI disponible dans le pack logiciel de gestion installé en externe. Aucune clé n'est requise pour télécharger l'interface de ligne de commande.</block>
   <block id="75842716a65060950b20cba161cbac95" category="paragraph">Un environnement d'exécution Java (JRE), version 8 et supérieure, doit être disponible sur le système de gestion dans lequel vous prévoyez d'exécuter les commandes CLI.</block>
   <block id="bd5b00551ee618ada817137a1272291f" category="list-text">Sous *Add-ons*, sélectionnez *Command Line interface*.</block>
@@ -5179,7 +5153,6 @@ En général, vous modifiez le type d'hôte par défaut avant de connecter les h
   <block id="594b7f21d6afec5d61bcd2260307666a" category="list-text">*ISER over InfiniBand interface statistics* -- fournit des statistiques pour tous les ports iser sur InfiniBand sur l'interface InfiniBand, qui inclut des statistiques de performance et des informations d'erreur de liaison associées à chaque port de commutateur.</block>
   <block id="981aaa3b1d8f5d256493b92b6b493e0a" category="summary">Vous pouvez créer une bannière de connexion qui est présentée aux utilisateurs avant d'établir des sessions dans SANtricity System Manager. La bannière peut inclure un avis consultatif et un message de consentement.</block>
   <block id="8efb09501bad8ce68b1a1bc93afb135d" category="doc">Configurer la bannière de connexion</block>
-  <block id="69bfc5b49cdbb5ecfe1a3226439e05f5" category="paragraph">Vous pouvez créer une bannière de connexion présentée aux utilisateurs avant d'établir des sessions dans System Manager. La bannière peut inclure un avis consultatif et un message de consentement.</block>
   <block id="7335dfb2a6a5b54076e56c28f64c1b27" category="paragraph">Lorsque vous créez une bannière, elle apparaît avant l'écran de connexion dans une boîte de dialogue.</block>
   <block id="715a220c50a620ae5a87b5d1e1719b4e" category="list-text">Sous la section général, sélectionnez *configurer la bannière de connexion*.</block>
   <block id="795b64a6f7aa721a8a5c6f7bcdb2da8b" category="paragraph">La boîte de dialogue configurer la bannière de connexion s'ouvre.</block>
@@ -5524,7 +5497,6 @@ Après avoir cliqué sur *Ajouter*, les destinations de déroutement et les noms
   <block id="e49b598ec0d819934f021980302ed36e" category="paragraph">Le contrôleur de la baie de stockage organise son cache en « blocs », qui sont des blocs de mémoire d'une taille de 8, 16 et 32 Kio. Tous les volumes du système de stockage partagent le même espace de cache. Par conséquent, les volumes ne peuvent avoir qu'une seule taille de bloc de cache.</block>
   <block id="3a60a217f8b5d35351731337da2590da" category="paragraph">Les applications utilisent des tailles de blocs différentes, ce qui peut avoir un impact sur les performances du stockage. Par défaut, la taille de bloc dans System Manager est de 32 Kio, mais vous pouvez définir la valeur 8, 16, 32 KiB. Une taille inférieure est un bon choix pour les systèmes de fichiers ou les applications de bases de données. Une taille plus importante est un bon choix pour les applications nécessitant des transferts de données importants, des E/S séquentielles ou une bande passante élevée, telles que le multimédia.</block>
   <block id="19380508f9149606321ac832a3c00e8a" category="summary">Access Management est une méthode pour établir l'authentification des utilisateurs dans SANtricity System Manager. Les méthodes d'authentification incluent le contrôle d'accès basé sur des rôles (RBAC), les services de répertoire et le langage SAML 2.0.</block>
-  <block id="09802636c4ae135257f67339b6132e62" category="paragraph">Access Management est une méthode permettant d'établir l'authentification des utilisateurs dans System Manager.</block>
   <block id="1f5e202c614a1661cfc9d511376773ed" category="paragraph">Les méthodes d'authentification incluent le contrôle d'accès basé sur des rôles (RBAC), les services d'annuaire et le langage SAML (Security assertion Markup Language) :</block>
   <block id="4b8217cf8d756a89a1dc65298ed13a9a" category="list-text">*RBAC/rôles utilisateur locaux* -- l'authentification est gérée via les fonctions RBAC appliquées dans la baie de stockage. Les rôles des utilisateurs locaux comprennent des profils utilisateur prédéfinis et des rôles avec des autorisations d'accès spécifiques.</block>
   <block id="b0029d6c0b0a5e53814d3fbde9bfae85" category="list-text">*Services d'annuaire* -- l'authentification est gérée par un serveur LDAP (Lightweight Directory Access Protocol) et des services d'annuaire, tels que Active Directory de Microsoft.</block>
@@ -5685,7 +5657,6 @@ Après avoir cliqué sur *Ajouter*, les destinations de déroutement et les noms
   <block id="c90bc0ea70009686def8f36034bc645e" category="paragraph">La définition de la ligne de base définit un nouveau point de départ pour la collecte des statistiques. La même base est utilisée pour toutes les statistiques iser sur InfiniBand.</block>
   <block id="b36030520bf6fb6f82f2952d906f0dd4" category="summary">Vous pouvez configurer System Manager pour des paramètres généraux de la baie et des fonctions complémentaires.</block>
   <block id="c7f8006a54ae70968da2a44d61c94f4c" category="doc">Présentation des paramètres</block>
-  <block id="2161120ac2f277c69a937d29896bb757" category="paragraph">Vous pouvez configurer System Manager pour des paramètres généraux de la baie et des fonctions complémentaires.</block>
   <block id="f01afbc659c3b1d4c71bba9b1a9ce3ea" category="section-title">Quels paramètres puis-je configurer ?</block>
   <block id="92a98c57d8dff609da2fceddaeac27a4" category="paragraph">Les paramètres de la matrice sont les suivants :</block>
   <block id="329b059dca9192ebf68525b6d3e3be44" category="inline-link-macro">Paramètres du cache et performances</block>
@@ -6087,7 +6058,6 @@ Le tableau affiche les serveurs syslog configurés.</block>
   <block id="8db062752d20414202ee8dcfe8b79167" category="paragraph">Dans cette configuration, la HIC externe est connectée à une HIC interne auxiliaire. Chaque port physique auquel vous pouvez accéder à partir de la HIC externe possède un port virtuel associé à partir de la HIC interne.</block>
   <block id="44f3889c95f5c360f68e73f44957a694" category="paragraph">Pour obtenir des performances maximales de 200 Go, vous devez attribuer une adresse IP unique pour les ports physiques et virtuels de sorte que l'hôte puisse établir des connexions à chacun. Si vous n'attribuez pas d'adresse IP au port virtuel, la HIC fonctionne à environ la moitié de sa vitesse.</block>
   <block id="ae8f19f0991a75dbac99ee6e45ba300b" category="summary">Vous pouvez configurer les délais d'expiration dans le Gestionnaire système SANtricity, de sorte que les sessions inactives des utilisateurs soient déconnectées au bout d'un délai spécifié.</block>
-  <block id="0d08d54101084156343832dde6b77679" category="paragraph">Vous pouvez configurer les délais d'expiration dans System Manager de sorte que les sessions inactives des utilisateurs soient déconnectées au bout d'un délai spécifié.</block>
   <block id="7e21334170926970f8d92b45e8391954" category="paragraph">Par défaut, le délai d'expiration de la session pour System Manager est de 30 minutes. Vous pouvez régler cette heure ou désactiver complètement les délais de session.</block>
   <block id="e535d8be0b5cae9eeaf63966afda7bde" category="paragraph">Si Access Management est configuré à l'aide des fonctionnalités SAML (Security assertion Markup Language) intégrées dans la baie, un délai d'expiration de session peut survenir lorsque la session SSO de l'utilisateur atteint sa limite maximale. Cela peut survenir avant le délai d'expiration de la session System Manager.</block>
   <block id="5303e6808de2e1eb2cd0b535241f849f" category="list-text">Sous la section général, sélectionnez *Activer/Désactiver le délai de session*.</block>
@@ -6143,7 +6113,6 @@ Le tableau affiche les serveurs syslog configurés.</block>
   <block id="80d67a7083770a1b1084819306dc6e00" category="list-text">Dans la boîte de dialogue, cliquez sur *Oui*.</block>
   <block id="566aba70ee8c167dfba34cf46cd5939f" category="paragraph">Après révocation de tous les jetons, vous pouvez créer de nouveaux jetons et les utiliser immédiatement.</block>
   <block id="e78959343eccc5753e5a6f69aa17e104" category="summary">Pour la gestion externe des clés, vous importez deux types de certificats pour l'authentification entre la matrice de stockage et le serveur de gestion des clés afin que les deux entités puissent se faire confiance.</block>
-  <block id="6bb1fc83f2153c8e3dfddfa5b556e792" category="doc">Comment puis-je savoir quels certificats doivent être téléchargés sur System Manager pour la gestion externe des clés ?</block>
   <block id="21e61b7b89892f01884cffafc8c86a9c" category="paragraph">Un certificat client valide les contrôleurs de la baie de stockage. Le serveur de gestion des clés peut donc faire confiance à leurs demandes KMIP (Key Management Interoperability Protocol). Pour obtenir un certificat client, utilisez System Manager pour effectuer une RSC pour la matrice de stockage. Vous pouvez ensuite télécharger la RSC sur un serveur de gestion des clés et générer un certificat client à partir de ce serveur. Une fois que vous avez un certificat client, copiez ce fichier vers l'hôte sur lequel vous accédez à System Manager.</block>
   <block id="9a4b083823a7c4b7786c0328f4a16e2a" category="paragraph">Un certificat de serveur de gestion des clés valide le serveur de gestion des clés. La baie de stockage peut donc avoir confiance en son adresse IP. Récupérez le fichier de certificat du serveur à partir du serveur de gestion des clés, puis copiez-le vers l'hôte sur lequel vous accédez à System Manager.</block>
   <block id="6f0a8cf9a1855b3b4a97c825f0dc2353" category="summary">Lorsque vous apportez certaines modifications à System Manager, par exemple le basculement de l'interface de gestion ou l'utilisation de SAML pour une méthode d'authentification, certains outils et fonctionnalités externes peuvent être limités d'utilisation.</block>
@@ -6178,8 +6147,6 @@ Le tableau affiche les serveurs syslog configurés.</block>
   <block id="2ab0aa4e6f963bdda6156f57930e7a34" category="list-text">Dans System Manager, recherchez et enregistrez le numéro de série du châssis. Vous pouvez afficher ce numéro de série en plaçant votre souris sur la mosaïque du Centre de support.</block>
   <block id="d8ab4f4f4bd758e305ce24ae089739e7" category="list-text">Dans System Manager, localisez l'identifiant d'activation de la fonction. Accédez au menu:Paramètres[système], puis faites défiler jusqu'à *Compléments*. Recherchez l'identifiant *Feature Enable identifier*. Notez le numéro de l'identifiant d'activation de la fonction.</block>
   <block id="1e892535381bacc3eae14862eb515b1a" category="list-text">Localiser et enregistrer le code d'activation de la fonction. Pour les packs de fonctionnalités, ce code est fourni dans les instructions appropriées pour effectuer la conversion.</block>
-  <block id="b7c76db9b2472e615129452598c32a70" category="inline-link">Centre de documentation des systèmes NetApp E-Series</block>
-  <block id="19c1dae7ed1abf9eb3b6c5146df9b1d5" category="paragraph">Des instructions NetApp sont disponibles à partir de<block ref="da76044833cc021823434c8291982304" category="inline-link-rx"></block>.</block>
   <block id="ead7d7ce373cd886b6b7a1a60db53284" category="paragraph">Pour les fonctionnalités Premium, vous pouvez accéder au code d'activation à partir du site de support, comme suit :</block>
   <block id="e7626dadbaccf1c6de0466c8e9271bce" category="list-text">Connectez-vous à<block ref="9a6f401ca1e7e89d8a0c29fb0cbe81b7" category="inline-link-rx"></block>.</block>
   <block id="78e85ed9fdf2fdf631f1825f112c9596" category="list-text">Accédez à *licences logicielles* pour votre produit.</block>
@@ -6431,7 +6398,6 @@ Le tableau affiche les serveurs syslog configurés.</block>
   <block id="4b1c34140fe8671262787b988c9f3e8f" category="paragraph">Pour résoudre ce problème, vous devez d'abord corriger le certificat du serveur syslog. Une fois qu'une chaîne de certificats valide est en place, accédez au menu:Paramètres[Journal d'audit &gt; configurer les serveurs Syslog &gt; tout tester].</block>
   <block id="c73b1b4d687800d408f419f0f0df3f39" category="summary">Si le protocole NTP (Network Time Protocol) n'est pas activé, vous pouvez définir manuellement les horloges sur les contrôleurs afin qu'elles soient synchronisées avec le client de gestion (système utilisé pour exécuter le navigateur qui accède à SANtricity System Manager).</block>
   <block id="98ab351cb9c5d5c191ae7f2acc9960e7" category="doc">Synchroniser les horloges de la matrice de stockage</block>
-  <block id="3a7965dd150006ce04e7d23d6db0b1a0" category="paragraph">Si le protocole NTP (Network Time Protocol) n'est pas activé, vous pouvez définir manuellement les horloges sur les contrôleurs afin qu'elles soient synchronisées avec le client de gestion (système utilisé pour exécuter le navigateur qui accède à System Manager).</block>
   <block id="5686e4a1839427d3f101f1242524feeb" category="paragraph">La synchronisation garantit que les horodatages des événements dans le journal des événements correspondent aux horodatages écrits dans les fichiers journaux de l'hôte. Pendant le processus de synchronisation, les contrôleurs restent disponibles et opérationnels.</block>
   <block id="fdcb6fda8360a631ef2730c06e89ae28" category="paragraph">Si le protocole NTP est activé dans System Manager, n'utilisez pas cette option pour synchroniser les horloges. À la place, NTP synchronise automatiquement les horloges avec un hôte externe à l'aide du protocole SNTP (simple Network Time Protocol).</block>
   <block id="187a2d7806202a5a575270922290f2a4" category="paragraph">Après la synchronisation, vous remarquerez peut-être que des statistiques de performances sont perdues ou faussées, les planifications sont affectées (ASUP, snapshots, etc.) et les horodatage dans les données de journal sont faussés. L'utilisation de NTP évite ce problème.</block>
@@ -6529,7 +6495,6 @@ Si la matrice de stockage ne comporte qu'un seul contrôleur, le bouton *Finish*
   <block id="2a46345726f4b24bc4413e97eeb1d7aa" category="summary">Pour interrompre la connexion entre un serveur d'annuaire et la matrice de stockage, vous pouvez supprimer les informations sur le serveur de la page gestion des accès. Vous pouvez effectuer cette tâche si vous avez configuré un nouveau serveur, puis que vous souhaitez supprimer l'ancien serveur.</block>
   <block id="d8d38c12a50ff2f32d458cf9d7b9a5d2" category="summary">Pour plus de sécurité sur un réseau iSCSI, vous pouvez définir l'authentification entre les contrôleurs (cibles) et les hôtes (initiateurs).</block>
   <block id="debdeea4f7c7c1ad7f4c1889559f36da" category="doc">Configurez l'authentification iSCSI</block>
-  <block id="f25757541c7e0ec27202359d16444702" category="paragraph">System Manager utilise la méthode CHAP (Challenge Handshake Authentication Protocol) qui valide l'identité des cibles et des initiateurs pendant la liaison initiale. L'authentification est basée sur une clé de sécurité partagée appelée secret_CHAP_.</block>
   <block id="6d847cb260c3b10c653cbff3f84b8181" category="paragraph">Vous pouvez définir le secret CHAP pour les initiateurs (hôtes iSCSI) avant ou après avoir défini le secret CHAP pour les cibles (contrôleurs). Avant de suivre les instructions de cette tâche, vous devez attendre que les hôtes aient d'abord établi une connexion iSCSI, puis définir le secret CHAP sur les hôtes individuels. Une fois les connexions effectuées, les noms IQN des hôtes et leurs secrets CHAP sont répertoriés dans la boîte de dialogue pour l'authentification iSCSI (décrite dans cette tâche) et vous n'avez pas besoin de les saisir manuellement.</block>
   <block id="663de1f1bccd271305665fc7a85f32fc" category="paragraph">Vous pouvez sélectionner l'une des méthodes d'authentification suivantes :</block>
   <block id="242f790f38df75c682bfaf14ee8110be" category="list-text">*Authentification unidirectionnelle* -- utilisez ce paramètre pour permettre au contrôleur d'authentifier l'identité des hôtes iSCSI (authentification unidirectionnelle).</block>
@@ -6594,7 +6559,6 @@ Après avoir cliqué sur *Ajouter*, la boîte de dialogue configurer les serveur
   <block id="516f6303c6523ac7aa9cc2a0fd55aab3" category="paragraph">Affichez les statistiques NVMe sur InfiniBand</block>
   <block id="b19fe3a2a20f338166ef8a5d0758b53a" category="list-text">Faites défiler jusqu'à *NVMe over InfiniBand settings*, puis sélectionnez *View NVMe over Fabrics Statistics*.</block>
   <block id="4bdba401227da38e05e805640bc07392" category="summary">Les fonctionnalités RBAC (contrôle d'accès basé sur des rôles) appliquées sur la baie de stockage incluent des profils utilisateur prédéfinis avec un ou plusieurs rôles qui leur sont mappés. Chaque rôle inclut des autorisations d'accès aux tâches dans SANtricity System Manager.</block>
-  <block id="2f9b4deb9315aed582af1e2cad742214" category="paragraph">Les fonctionnalités RBAC (contrôle d'accès basé sur des rôles) appliquées sur la baie de stockage incluent des profils utilisateur prédéfinis avec un ou plusieurs rôles qui leur sont mappés. Chaque rôle inclut des autorisations d'accès aux tâches dans System Manager.</block>
   <block id="4af88e993472ad0efbe148c3d71082f9" category="paragraph">Les profils utilisateur et les rôles mappés sont accessibles à partir du menu:Paramètres[Access Management &gt; local User Roles] dans l'interface utilisateur de System Manager.</block>
   <block id="730a090cd84a0ce605e346fc4d569c15" category="paragraph">Si un utilisateur ne dispose pas des autorisations pour une tâche donnée, cette tâche est grisée ou ne s'affiche pas dans l'interface utilisateur.</block>
   <block id="cfdc5e649dc7b0acf3abda399c5764a7" category="summary">Si vous avez configuré la gestion interne des clés et que vous déplacez ensuite les disques sécurisés d'une matrice de stockage à une autre, vous devez réattribuer la clé de sécurité à la nouvelle matrice de stockage pour accéder aux données cryptées sur les lecteurs.</block>
@@ -6883,8 +6847,6 @@ Après avoir cliqué sur *Ajouter*, les destinations de déroutement et les noms
   <block id="e278e6437347ba1b8b43475dafb1ed84" category="inline-link">11.50 Notes de mise à jour</block>
   <block id="7d69ef318412295725664b5711e60b81" category="list-text"><block ref="7d69ef318412295725664b5711e60b81" category="inline-link-rx"></block></block>
   <block id="90e8ac6688c66ac3fc81de93ba27235a" category="summary">SANtricity System Manager et Unified Manager</block>
-  <block id="e66485fdc97bafe46eca656f0d146144" category="doc">Documentation du logiciel SANtricity 11.7</block>
-  <block id="33fac5e50dba9d05a49bb949dbec339e" category="doc">Gestion de plusieurs baies avec Unified Manager 5.3</block>
   <block id="c5a4e56bb338a4a15f84855c89874dcb" category="summary">La page d'accueil offre un tableau de bord pour la gestion quotidienne de votre matrice de stockage. Lorsque vous vous connectez à System Manager, la page d'accueil est le premier écran affiché.</block>
   <block id="7b19b37e7fc3dfe3c3e1ad5b84c7f565" category="doc">Page d'accueil</block>
   <block id="e9aa64deeac9232288a507fc5c4fbcd7" category="paragraph">Le tableau de bord comprend quatre zones récapitulatives contenant des informations clés sur l'état et l'état de santé de votre baie de stockage. Vous trouverez plus d'informations dans la zone de résumé.</block>
@@ -7074,8 +7036,6 @@ Après avoir cliqué sur *Ajouter*, les destinations de déroutement et les noms
   <block id="35add11daa03126332ded679a471057a" category="list-text">Une fois l'opération de copie de volume terminée, vous pouvez sélectionner *Effacer* pour la supprimer de la liste.</block>
   <block id="0cfd3bc55947c6b31d655ec407a2f71f" category="paragraph">En haut de la page d'accueil, un message d'information et une icône de clé jaune apparaissent lorsqu'une opération est terminée. Ce message comprend un lien qui vous permet de supprimer l'opération de la page opérations en cours.</block>
   <block id="3412f4f9996db44d85e9a7ddb64f8fc2" category="summary">Vous naviguez dans l'interface principale pour accéder aux fonctionnalités et aux tâches de System Manager.</block>
-  <block id="42ff625aa5c914a15cc639fd05aa3bfb" category="doc">Présentation de l'interface de System Manager</block>
-  <block id="bb62a2f52038b073396f3df591dfc864" category="paragraph">System Manager est une interface web qui permet de gérer une baie de stockage à partir d'une seule vue.</block>
   <block id="a274f4d4670213a9045ce258c6c56b80" category="paragraph">Notifications</block>
   <block id="9446a98ad14416153cc4d45ab8b531bf" category="paragraph">Performance</block>
   <block id="fbc25e9c092c98f7b43c32748a412668" category="paragraph">Hiérarchie du stockage</block>
@@ -7088,7 +7048,6 @@ Après avoir cliqué sur *Ajouter*, les destinations de déroutement et les noms
   <block id="8a3756e443f3087d0407e433424e5187" category="paragraph">Accédez à la documentation d'aide et aux autres ressources dans le menu déroulant situé dans le coin supérieur droit de l'interface.</block>
   <block id="b44cc8f2227561bd5c9166d7540d3bf7" category="list-text"><block ref="b44cc8f2227561bd5c9166d7540d3bf7" category="inline-link-macro-rx"></block></block>
   <block id="41b4037cc65a5c02499addb588e46a37" category="list-text"><block ref="41b4037cc65a5c02499addb588e46a37" category="inline-link-macro-rx"></block></block>
-  <block id="e5455040d4a9ede58061022a5ec57985" category="doc">System Manager n'a détecté aucun hôte. Que dois-je faire ?</block>
   <block id="d3a86cafa599e35921fd0866f49f439b" category="list-text">Si vous avez installé l'agent HCA (Host Context Agent) sur vos hôtes, le HCA transmet les informations de configuration de l'hôte à la matrice de stockage. System Manager configure automatiquement ces hôtes et les affiche dans l'assistant *Configuration initiale*. (HCA ne s'applique pas aux hôtes NVMe over Fabrics.)</block>
   <block id="4343a245fb510b33d199f2e5fae7a540" category="summary">Lorsque vous identifiez des applications, System Manager recommande automatiquement une configuration de volume qui optimise le stockage en fonction du type d'application.</block>
   <block id="c56a19e88f72c77c4ab3e3911e485975" category="doc">En quoi l'identification des applications m'aide-t-elle dans la gestion de ma baie de stockage ?</block>
@@ -7143,8 +7102,6 @@ Pour plus d'informations, voir <block ref="76f7f7f626201f08ee7d5ab40ad8ee0f" cat
   <block id="76c87f9a843301e7b52af32c31aff3df" category="list-text">Pour en savoir plus sur les unités par défaut pour l'affichage des valeurs de capacité, reportez-vous à la section <block ref="0eb9a891b9aeec8453c8ad7826b910a5" category="inline-link-macro-rx"></block>.</block>
   <block id="795e6354aa37f36ef941856ce0f794ba" category="list-text">Pour en savoir plus sur la plage horaire par défaut pour l'affichage des graphiques de performances, reportez-vous à la section <block ref="81a33fcf9c8cd6096d2da50ffffa5d5c" category="inline-link-macro-rx"></block>.</block>
   <block id="d424dbef08902607fe74ce66143ded85" category="summary">Accédez à Unified Manager et connectez-vous à ce portail.</block>
-  <block id="935157885838ef2e13b906dc3cfa3504" category="doc">Accédez à Unified Manager</block>
-  <block id="0fe8e078d723310c7a025dbb49b053a2" category="paragraph">Après avoir installé Web Services Proxy, vous pouvez accéder à Unified Manager pour gérer plusieurs systèmes de stockage dans une interface Web.</block>
   <block id="d6ccab2da5107baf9a74bf70fd30ac64" category="inline-link-macro">Navigateurs et systèmes d'exploitation pris en charge</block>
   <block id="0a638be7984a916271be0d85fa354c61" category="admonition">Pour les navigateurs pris en charge, reportez-vous à la section <block ref="0d80156806b92a254389d706e3039498" category="inline-link-macro-rx"></block>.</block>
   <block id="75ac65baa63f90887df8eeedf86752f4" category="list-text">Ouvrez un navigateur et saisissez l'URL suivante :</block>
@@ -7157,8 +7114,6 @@ Pour plus d'informations, voir <block ref="76f7f7f626201f08ee7d5ab40ad8ee0f" cat
   <block id="33f269cc4cd9098419c158473cffe9e4" category="summary">Les systèmes E-Series incluent le logiciel SANtricity pour le provisionnement du stockage et d'autres tâches.</block>
   <block id="75a9a7dc8aca16de32b785f0f7b9bc1d" category="doc">Présentation du logiciel SANtricity</block>
   <block id="ba3a0fdc8434a7821716045b35ac5b56" category="paragraph">Ce site explique comment utiliser les interfaces de gestion SANtricity suivantes :</block>
-  <block id="43a99cf5380d48020dfc1071e466e3eb" category="list-text">System Manager : interface Web utilisée pour gérer un contrôleur dans une baie de stockage.</block>
-  <block id="4c8fa256f7bb6a36c0dff2d7c9f2a7d3" category="list-text">Unified Manager :- interface web utilisée pour afficher et gérer toutes les baies de stockage de votre réseau.</block>
   <block id="63c27446cbc875ce50da9011ea68f5d7" category="admonition">Les baies de stockage EF600 et EF300 ne prennent pas en charge la mise en miroir, les volumes fins ou les fonctionnalités de cache SSD.</block>
   <block id="0472921e1ddce2239a2bd92ea276d1c2" category="section-title">SANtricity System Manager</block>
   <block id="12491fe4846acc1919e62f4155149b40" category="paragraph">System Manager est un logiciel de gestion web intégré à chaque contrôleur. Pour accéder à l'interface utilisateur, pointez un navigateur vers l'adresse IP du contrôleur. Un assistant d'installation vous aide à commencer la configuration du système.</block>
@@ -7244,8 +7199,6 @@ Pour plus d'informations, voir <block ref="76f7f7f626201f08ee7d5ab40ad8ee0f" cat
   <block id="3d945423f8e9496c429a5d8c65b4604f" category="paragraph">Ubuntu</block>
   <block id="f93164fdf3a453327bceab4df38f5ead" category="paragraph">18.04, 20.04 / 64 bits</block>
   <block id="cdee3f665be88669170bda11b2f06c93" category="summary">Présentation de l'installation de Unified Manager</block>
-  <block id="65747c74d7b2e455833a7211d404378f" category="doc">Installez Unified Manager</block>
-  <block id="34d9a59f7d7e5ba2b6d37af87522f26b" category="paragraph">Unified Manager est inclus dans le proxy de services Web, un serveur API RESTful installé séparément sur un système hôte permettant de gérer les systèmes de stockage NetApp E-Series.</block>
   <block id="cbdedeba7d21b6ec4e131a86b76662c6" category="paragraph">Pour installer le proxy de services Web et Unified Manager, consultez les instructions suivantes dans le centre de documentation E-Series et SANtricity :</block>
   <block id="a18485577a4748889b9322afa1d6eadc" category="inline-link">Examinez les conditions d'installation et de mise à niveau</block>
   <block id="192c70ae7442b1e297e8288370c5d9a7" category="list-text"><block ref="192c70ae7442b1e297e8288370c5d9a7" category="inline-link-rx"></block></block>
@@ -7274,7 +7227,6 @@ Pour plus d'informations, voir <block ref="76f7f7f626201f08ee7d5ab40ad8ee0f" cat
   <block id="6f067491edf3a5eb1aa19e9c9212cf77" category="paragraph">Selon le numéro que vous avez sélectionné, l'ordre des étagères peut être réorganisé sur la page matériel. Si vous le souhaitez, vous pouvez utiliser les flèches haut/bas situées en haut à droite de chaque étagère pour réajuster l'ordre.</block>
   <block id="9a10dfa4820362278c75541e0d1eed8b" category="summary">Les disques de secours servent de disques de secours dans des groupes de volumes RAID 1, RAID 5 ou RAID 6 pour System Manager. </block>
   <block id="276a13903d824739180cb574a8b6063a" category="doc">Présentation du lecteur de disque de secours</block>
-  <block id="e4fa5d6edf084bd88f0cdd23e75bb932" category="paragraph">Les disques de secours servent de disques de secours dans des groupes de volumes RAID 1, RAID 5 ou RAID 6 pour System Manager.</block>
   <block id="bb3d0b1d00371907893169044379dc18" category="paragraph">Il s'agit de lecteurs entièrement fonctionnels qui ne contiennent aucune donnée. Si un disque tombe en panne dans le groupe de volumes, le contrôleur reconstruit automatiquement les données du disque défaillant vers un disque affecté en tant que disque de secours.</block>
   <block id="44fc683d36bd75431aa319eb657eee3d" category="paragraph">Les disques de secours ne sont pas dédiés à des groupes de volumes spécifiques. Ils peuvent être utilisés pour tout disque défectueux dans la baie de stockage, tant que le disque de secours et le lecteur partagent les attributs suivants :</block>
   <block id="4cb8bf730ded016e3d4d1c1557bceadb" category="list-text">Capacité égale (ou supérieure pour le disque de secours)</block>
@@ -7654,7 +7606,6 @@ Les attributs de sécurité peuvent inclure :</block>
   <block id="110db2e13b087b151f544be87ba6cf0b" category="list-text">*Configurer l'adresse globale* -- l'hôte se configure avec son adresse Internet unique globale. Cette adresse est généralement constituée d'un préfixe réseau fourni à l'hôte par le routeur.</block>
   <block id="260143c2df7ae0ce4b9a6b4e5820e5bb" category="summary">Si vous avez modifié l'adresse IP de la baie de stockage, vous pouvez mettre à jour la vue de la baie globale dans SANtricity Unified Manager.</block>
   <block id="cc9d5e6a39247b7ae502a7f1e633c4f7" category="doc">Que dois-je faire après avoir configuré les ports de gestion ?</block>
-  <block id="33be6721ee47ba737121b0b61fc7ccb1" category="paragraph">Si vous avez modifié l'adresse IP de la matrice de stockage, vous pouvez mettre à jour la vue de la baie globale dans Unified Manager.</block>
   <block id="67b52d0dd0552f62756981b7d04e334a" category="paragraph">Pour mettre à jour la vue de la baie globale dans Unified Manager, ouvrez l'interface et accédez au menu :Manage[Discover].</block>
   <block id="3f79a5cd8daf0ba8a2623f690e8ad45d" category="paragraph">Si vous utilisez toujours SANtricity Storage Manager, accédez à la fenêtre de gestion d'entreprise (EMW), où vous devez supprimer et réajouter la nouvelle adresse IP.</block>
   <block id="c2348695087b04cfa58209e1cc6cf369" category="summary">Un cycle d'apprentissage est un cycle automatique d'étalonnage de la jauge de batterie intelligente.</block>
@@ -8453,7 +8404,6 @@ La section matériel indique également l'identifiant de clé de sécurité si u
   <block id="60a92f90c37ecb6d923b3bd90960fe50" category="list-text">*Data assurance* -- une erreur Data assurance.</block>
   <block id="53f6e38bfb8737cd78f3afe40356d59e" category="summary">Dans SANtricity System Manager, vous configurez la fonctionnalité AutoSupport en suivant ces étapes.</block>
   <block id="abcd71b1bdd83d175115a06e7bd6993c" category="doc">Workflow pour la fonctionnalité AutoSupport</block>
-  <block id="fa1ad6ca18787ce10b28e8361e9f1ad1" category="paragraph">Dans System Manager, vous configurez la fonctionnalité AutoSupport en suivant ces étapes.</block>
   <block id="3bd2ffe663bb769bb020a0e8f968a73a" category="image-alt">le flw sam1130 prend en charge la configuration de l'installation</block>
   <block id="86a5e8630ff2e8e28a803ee84068ba6d" category="summary">Vous pouvez indiquer au contrôleur que des mesures correctives ont été prises pour récupérer un problème de câblage.</block>
   <block id="78806e8c631b37f7ad8cf035c7be2eac" category="doc">Réactivez les ports de lecteur</block>
@@ -8593,10 +8543,7 @@ La section matériel indique également l'identifiant de clé de sécurité si u
   <block id="0a0b92f036cc63a95b9be8f8ab2008e8" category="sidebar">La fonctionnalité Recovery Guru</block>
   <block id="3849340aeaa75e39b4c0086c87286698" category="sidebar">Journal des événements</block>
   <block id="06eae2db1d4831c93a0da137df21298c" category="sidebar">Fichiers de prise en charge de la récupération</block>
-  <block id="589c6e07e079f4086ec279a5e83c238d" category="sidebar">Le logiciel SANtricity vous permet d'optimiser les performances et l'utilisation de vos baies 100 % Flash hybrides E-Series et EF-Series pour les applications à forte charge de travail, comme l'analytique des données, la vidéosurveillance, et les sauvegardes et les restaurations.</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Commencez</block>
-  <block id="0b008f21f9758b84909b95140b0a532d" category="sidebar">Interface de System Manager</block>
-  <block id="29ac086a960081d77daa677c24463af3" category="sidebar">Interface Unified Manager</block>
   <block id="e95315401141b931451e32ea694b6d92" category="sidebar">Fiche technique du logiciel SANtricity</block>
   <block id="421eeeca306bdf1873654f04f6d8e61e" category="sidebar">Documentation E-Series</block>
   <block id="b00771a05354ff5b2df1b388cfb6c874" category="sidebar">Documentation sur les systèmes E-Series</block>
@@ -8632,15 +8579,12 @@ La section matériel indique également l'identifiant de clé de sécurité si u
   <block id="6005f32a6b0b2eff40beaf1834123d4d" category="sidebar">Importer les paramètres</block>
   <block id="cccfa6d40938251810b757bc66c5e95b" category="sidebar">Modifier les paramètres de mot de passe</block>
   <block id="b5cd1001d92abd67712f605c8e770d14" category="sidebar">Modifier les paramètres du serveur d'annuaire</block>
-  <block id="3a269e7025c0f60568d7f845d390ff21" category="sidebar">Documents relatifs à SANtricity 11.7</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Quoi de neuf</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">Présentation</block>
   <block id="be4486cc26282ba3c22a297f83977dbe" category="sidebar">Navigateurs et systèmes d'exploitation pris en charge</block>
   <block id="483a5da192f46e3cfe8391d3ef234fc4" category="sidebar">FAQ</block>
   <block id="3023481996e16c0dd27c1aeeab45a6c4" category="sidebar">Que faire si je ne vois pas tous mes composants matériels ?</block>
   <block id="4f77fb4cfa40635f17d21979b6692c01" category="sidebar">Et si je ne vois pas tous mes hôtes ?</block>
-  <block id="009fd64f93ff18102999ecfeee8b7573" category="sidebar">Définition de Unified Manager</block>
-  <block id="26ed02718973e705cd69ee6e109400e0" category="sidebar">System Manager</block>
   <block id="93af28c8ab635f0e7d402547ab0c929d" category="sidebar">Interface principale</block>
   <block id="fc78fae55edd9650c6455e58681d3aae" category="sidebar">Afficher les données de performances</block>
   <block id="76cf11d4db12b1a45f4d62797b620d5e" category="sidebar">Gérer les paramètres d'interface</block>
@@ -8746,4 +8690,78 @@ La section matériel indique également l'identifiant de clé de sécurité si u
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="511bc26995332ccd1bc373f2533ac9e7" category="doc">Accédez à SANtricity System Manager</block>
+  <block id="d5eb7087909dec2e661624440883bfe3" category="paragraph">Pour accéder à l'interface utilisateur de SANtricity System Manager, vous faites pointer un navigateur vers l'adresse IP du contrôleur. Un assistant d'installation vous aide à commencer la configuration du système.</block>
+  <block id="df45899b1d870d205c92f531b2f9cbca" category="doc">Installez SANtricity Unified Manager</block>
+  <block id="c37a83a89674fde8ffeaf12ba00d2af5" category="paragraph">SANtricity Unified Manager est inclus dans le proxy de services Web, qui est un serveur d'API RESTful installé séparément sur un système hôte pour gérer les baies de stockage NetApp E-Series.</block>
+  <block id="0a9898b156851883b0c35a15776338c8" category="doc">Accédez à SANtricity Unified Manager</block>
+  <block id="6def903cf56aa77e14dd50ebb8fe2719" category="paragraph">Après avoir installé le proxy de services Web, vous pouvez accéder à SANtricity Unified Manager pour gérer plusieurs systèmes de stockage dans une interface Web.</block>
+  <block id="2bd02938542bb2c7a9553ad05a038e27" category="list-text">Gestionnaire système SANtricity : interface web utilisée pour gérer un contrôleur d'une baie de stockage.</block>
+  <block id="a84f5db9f03e46643484135553ed5d9a" category="list-text">SANtricity Unified Manager : interface web utilisée pour afficher et gérer toutes les baies de stockage de votre réseau.</block>
+  <block id="ef256c4d218c47a2c04a18d10165ac0f" category="paragraph">SANtricity System Manager indique différents États des disques.</block>
+  <block id="00cffad3ca607922a6c706858259b403" category="paragraph">Les disques de secours agissent comme des disques de secours dans les groupes de volumes RAID 1, RAID 5 ou RAID 6 pour SANtricity System Manager.</block>
+  <block id="f1a4437045c85126e53d06d8e40fd021" category="paragraph">Un système de stockage en mode non optimal est dû à un état de configuration du système non valide. Malgré cet état, l'accès E/S normal aux volumes existants est entièrement pris en charge. Cependant, SANtricity System Manager interdit certaines opérations.</block>
+  <block id="4c1548b517bea01f9959a884be8575f3" category="paragraph">La page d'accueil offre un tableau de bord pour la gestion quotidienne de votre matrice de stockage. Lorsque vous vous connectez au Gestionnaire système SANtricity, la page d'accueil est le premier écran affiché.</block>
+  <block id="23d5a32d5d5e34af0ae01167c84aee80" category="paragraph">Lorsque vous identifiez des applications, SANtricity System Manager recommande automatiquement une configuration de volume qui optimise le stockage en fonction du type d'application.</block>
+  <block id="533d0451d27fab44f457ddccee791402" category="doc">Présentation de l'interface SANtricity System Manager</block>
+  <block id="37ab8a55610b93d738f7d12e13b2cbe8" category="paragraph">SANtricity System Manager est une interface web qui vous permet de gérer une baie de stockage dans une vue unique.</block>
+  <block id="1d4af631b6959ddfabcf268d07e5d112" category="paragraph">Le Gestionnaire système SANtricity utilise des icônes et plusieurs autres méthodes pour vous informer que des problèmes existent dans la matrice de stockage.</block>
+  <block id="eca296c53d8021e175c9233b22d536a5" category="paragraph">Le gourou de la restauration est un composant de SANtricity System Manager qui diagnostique les problèmes liés à la baie de stockage et recommande des procédures de restauration pour résoudre les problèmes.</block>
+  <block id="1eccb12b6beaa3afa33d88e6dbe96f3e" category="paragraph">SANtricity System Manager peut afficher les valeurs de capacité en gibioctets (Gio) ou en tébioctets (Tio).</block>
+  <block id="a9eafd95e4debe4d6c9e953b2123621f" category="doc">SANtricity System Manager n'a détecté aucun hôte. Que dois-je faire ?</block>
+  <block id="784bf5e8aec03bc0a910429232366bbb" category="paragraph">Vous pouvez naviguer dans le Gestionnaire système SANtricity à l'aide du clavier seul.</block>
+  <block id="31c67a5a03f932bcfb7ec2e8acde1918" category="paragraph">SANtricity System Manager prend en charge ces versions de navigateur.</block>
+  <block id="06c1a3efc270606698185f701855e68d" category="paragraph">Vous configurez les paires en miroir dans l'interface SANtricity Unified Manager, puis vous gérez les paires dans SANtricity System Manager.</block>
+  <block id="74b085142e307db471b1f86d42eaa7f6" category="paragraph">Vous pouvez modifier les paramètres d'un volume de paire en miroir pour ajuster le point de pourcentage auquel SANtricity System Manager envoie une notification d'alerte lorsque la capacité réservée pour un volume de paire en miroir est presque pleine.</block>
+  <block id="f16e62f612f383ccc4993fccf8164eb5" category="paragraph">Si vous avez créé un volume primaire sur une baie de stockage existante qui ne peut pas être gérée par SANtricity System Manager, vous pouvez créer le volume secondaire sur cette baie avec SANtricity System Manager.</block>
+  <block id="e8335355b809680a7a07946df0f22a21" category="paragraph">La mise en miroir est configurée dans l'interface SANtricity Unified Manager.</block>
+  <block id="ab5fa22ee50acc00e54f214278173af3" category="paragraph">SANtricity System Manager utilise la méthode CHAP (Challenge Handshake Authentication Protocol) qui valide l'identité des cibles et des initiateurs lors de la liaison initiale. L'authentification est basée sur une clé de sécurité partagée appelée secret_CHAP_.</block>
+  <block id="3e8940a07dc6e6fcfaeb8f76e0e95d98" category="paragraph">Depuis SANtricity System Manager, vous pouvez télécharger le pack de l'interface de ligne de commandes.</block>
+  <block id="e3c6215a209a5d287059d476946fe408" category="paragraph">Les modules complémentaires sont des fonctionnalités qui ne sont pas incluses dans la configuration standard de SANtricity System Manager et peuvent nécessiter une clé pour l'activation. Une fonction complémentaire peut être une fonction premium unique ou un pack de fonctions fourni.</block>
+  <block id="97d42caaa63b71f8c24b9a49d4dd3cad" category="doc">Comment savoir quels certificats doivent être chargés dans SANtricity System Manager pour la gestion externe des clés ?</block>
+  <block id="ed6a026f78a1a9d6f206a0aac76aae36" category="paragraph">Vous pouvez configurer les délais d'expiration dans SANtricity System Manager de sorte que les sessions inactives des utilisateurs soient déconnectées au bout d'un délai spécifié.</block>
+  <block id="7b5a3ab486c3b4b2ccfc9a760315a3ea" category="paragraph">Vous pouvez configurer SANtricity System Manager pour qu'il envoie des alertes de baie de stockage par e-mail, des traps SNMP et des messages syslog.</block>
+  <block id="04dfac63eb6f5f22800fa898350089ee" category="paragraph">Vous pouvez utiliser le Gestionnaire système SANtricity pour créer des demandes de signature de certificat (RSC), importer des certificats et gérer des certificats existants.</block>
+  <block id="2808e7b4862302de005363e8d7a9298b" category="paragraph">Vous pouvez configurer SANtricity System Manager pour certains paramètres généraux de la baie et certaines fonctions complémentaires.</block>
+  <block id="37292b1d6269336dad0fc27c14cc50e6" category="paragraph">La fonction d'équilibrage de charge automatique assure la gestion et l'équilibrage dynamiques du trafic d'E/S entrant provenant des hôtes sur les deux contrôleurs. Cette fonctionnalité est activée par défaut, mais vous pouvez la désactiver dans SANtricity System Manager.</block>
+  <block id="d446eaf3c37a2d1b64761e41e0d4c396" category="paragraph">Vous pouvez obtenir des certificats signés par une autorité de certification pour sécuriser les communications entre les contrôleurs et le navigateur utilisé pour accéder au Gestionnaire système SANtricity.</block>
+  <block id="71922c71c5f29b0c629529ba400ef998" category="paragraph">Le Gestionnaire système SANtricity vous permet de vérifier les certificats révoqués à l'aide d'un serveur OCSP (Online Certificate Status Protocol), au lieu de télécharger les listes CRL (Certificate Revocation Lists).</block>
+  <block id="d901918c71190564252df1392b4512b5" category="paragraph">Le tableau suivant répertorie les fonctions de SANtricity System Manager que vous pouvez utiliser pour configurer et gérer les sessions iser over InfiniBand.</block>
+  <block id="97eb7f10d621b518571460a8d1bccf8b" category="paragraph">Le tableau suivant répertorie les fonctions de SANtricity System Manager que vous pouvez utiliser pour configurer et gérer les sessions NVMe over InfiniBand.</block>
+  <block id="09cab99fec7e2be20fb90f16f896325b" category="paragraph">Vous devez synchroniser manuellement les horloges du contrôleur dans la matrice de stockage si vous remarquez que les horodatages affichés dans le Gestionnaire système SANtricity ne sont pas alignés sur les horodatages affichés dans votre client de gestion (l'ordinateur qui accède au Gestionnaire système SANtricity via le navigateur). Cette tâche n'est nécessaire que si le protocole NTP (Network Time Protocol) n'est pas activé dans le Gestionnaire système SANtricity.</block>
+  <block id="a96d9e965e10c639f6190acfe6a05114" category="paragraph">Lorsque vous apportez certaines modifications à SANtricity System Manager, telles que le basculement de l'interface de gestion ou l'utilisation de SAML pour une méthode d'authentification, l'utilisation de certains outils et fonctionnalités externes peut être limitée.</block>
+  <block id="e89611f534bae4fdefd815eda302ac53" category="paragraph">Si vous recevez une erreur lorsque vous tentez de vous connecter au Gestionnaire système SANtricity, vérifiez les causes suivantes.</block>
+  <block id="e07e1a01ada9b7dffd6f47c6fec15822" category="paragraph">Vous pouvez modifier les paramètres d'un volume de membres d'un groupe de cohérence pour ajuster le point de pourcentage auquel le gestionnaire système SANtricity envoie une notification d'alerte lorsque la capacité réservée d'un volume membre est presque pleine et pour modifier la règle à utiliser lorsque la capacité réservée atteint son pourcentage maximal défini.</block>
+  <block id="5565955fb75572cd15d1180cd1e84891" category="paragraph">Vous pouvez modifier les paramètres d'un groupe de snapshots pour modifier son nom, ses paramètres de suppression automatique, le nombre maximal d'images de snapshot autorisées, le point de pourcentage auquel SANtricity System Manager envoie une notification d'alerte de capacité réservée ou la stratégie à utiliser lorsque la capacité réservée atteint son pourcentage maximal défini.</block>
+  <block id="f387ebe48cc5271f2c7b7a6d62f5e151" category="paragraph">La création de pool est lancée automatiquement lorsque SANtricity System Manager détecte des disques non attribués dans la baie de stockage. La création automatique de pool vous permet de configurer facilement tous les disques non assignés dans la baie de stockage dans un pool et d'ajouter des disques aux pools existants.</block>
+  <block id="167c625a6715ae3c7e8f536806a65484" category="paragraph">SANtricity System Manager définit des limites pour le nombre de disques que vous pouvez supprimer d'un pool.</block>
+  <block id="edd06ce21b8b3d973ceffbcdc0ec4f8d" category="paragraph">Les alertes de capacité indiquent quand ajouter des disques à un pool. Un pool a besoin de capacité disponible suffisante pour mener à bien les opérations de la baie de stockage. Vous pouvez éviter les interruptions de ces opérations en configurant SANtricity System Manager pour qu'il envoie des alertes lorsque la capacité disponible d'un pool atteint ou dépasse un pourcentage spécifié.</block>
+  <block id="c3ef549f921f9931ee4e54e5a9176597" category="paragraph">Dans le Gestionnaire système SANtricity, vous pouvez créer des images instantanées et des volumes instantanés en procédant comme suit.</block>
+  <block id="e96cf8b7e66ac097facaf28c82d66aa1" category="paragraph">Le support technique peut utiliser les fichiers de support de récupération pour résoudre les problèmes. SANtricity System Manager enregistre automatiquement ces fichiers.</block>
+  <block id="fcaba1806566990b101abb2ccb59a73f" category="paragraph">SANtricity System Manager crée automatiquement un planning par défaut pour les interventions AutoSupport. Si vous préférez, vous pouvez spécifier votre propre horaire.</block>
+  <block id="d8d7d1838ede45a15d34d278b1c7dc22" category="paragraph">Le gestionnaire système SANtricity vous permet d'envoyer des interventions AutoSupport au support technique, sans attendre une intervention planifiée.</block>
+  <block id="da1743923a3a0458c608ee2a3312d293" category="paragraph">Les sessions iSCSI peuvent se produire avec des hôtes ou des baies de stockage distantes dans une relation de mise en miroir asynchrone. Les tableaux suivants répertorient les fonctions du Gestionnaire système SANtricity que vous pouvez utiliser pour configurer et gérer ces sessions iSCSI.</block>
+  <block id="9f17248408dfc25b87079618f64e0acc" category="doc">Gestion de baie unique avec SANtricity System Manager 11.7</block>
+  <block id="5f7016e066403d9d218a874cedc63541" category="paragraph">Vous pouvez configurer les délais d'expiration pour SANtricity Unified Manager de sorte que les sessions inactives des utilisateurs soient déconnectées après une heure spécifiée.</block>
+  <block id="82a77b13aa8d00eca6e71aa5af7098d6" category="doc">Présentation de l'interface SANtricity Unified Manager</block>
+  <block id="3ec40952f7ff71ab9d51f1f50e2e10a2" category="paragraph">SANtricity Unified Manager est une interface web qui vous permet de gérer plusieurs baies de stockage dans une vue unique.</block>
+  <block id="553b07cb69b9906d0f4d1c0b2c97bdae" category="paragraph">Les administrateurs peuvent utiliser des fonctionnalités RBAC (contrôle d'accès basé sur des rôles) appliquées dans SANtricity Unified Manager. Ces fonctionnalités sont appelées « rôles utilisateur locaux ».</block>
+  <block id="f0254fcd04a8e1df1dc8c778e6189b01" category="paragraph">Vous pouvez obtenir et importer des certificats signés par une autorité de certification pour un accès sécurisé au système de gestion hébergeant SANtricity Unified Manager.</block>
+  <block id="c5f9375676cadbc97263ea339c65e0df" category="paragraph">Avant de pouvoir afficher et gérer les ressources de stockage, SANtricity Unified Manager doit détecter les baies de stockage que vous souhaitez gérer dans le réseau de votre entreprise. Vous pouvez détecter plusieurs baies ou une seule.</block>
+  <block id="8205965c706fda540f0df394d1fd7df5" category="paragraph">SANtricity Unified Manager permet d'importer les paramètres d'une baie de stockage vers plusieurs baies de stockage. La fonction Importer les paramètres est une opération par lots qui permet de gagner du temps lorsque vous devez configurer plusieurs matrices sur le réseau.</block>
+  <block id="2b8e903f9231328c5dd4ac194fe0ed99" category="paragraph">SANtricity Unified Manager permet de mettre à niveau le logiciel SANtricity OS sur plusieurs baies de stockage du même type vers une version plus récente.</block>
+  <block id="c5cdef1d414ec599aa9b2d1f28c67d4b" category="doc">Facteurs à prendre en compte pour accéder à SANtricity System Manager</block>
+  <block id="cdaae564ece8b6f3561a5e657337c464" category="paragraph">Vous configurez la mise en miroir asynchrone ou synchrone dans SANtricity Unified Manager, puis vous utilisez SANtricity System Manager pour gérer les synchronisations.</block>
+  <block id="69ffe5f70c823700a785fa58e3fbca15" category="paragraph">SANtricity Unified Manager inclut des options de configuration pour les fonctionnalités de mise en miroir SANtricity, qui permettent aux administrateurs de répliquer des données entre deux baies de stockage à des fins de protection des données.</block>
+  <block id="bf29ed0b212c99188f3c0d2b5992aeee" category="paragraph">SANtricity Unified Manager affiche l'état de chaque baie de stockage détectée.</block>
+  <block id="99e207225cad4e6c8aa147bb693de2fe" category="paragraph">Avant d'utiliser SANtricity Unified Manager pour mettre à niveau plusieurs baies de stockage, passez en revue les principaux éléments de votre planification.</block>
+  <block id="04594213069ea79b6352bed0749be021" category="doc">Gestion de plusieurs baies avec SANtricity Unified Manager 5,3</block>
+  <block id="ba18f3508cd78cfafeb97526e1f182c6" category="sidebar">Avec le logiciel SANtricity 11.7, vous exploitez tout le potentiel de vos baies Flash hybrides E-Series et 100 % Flash EF-Series pour les applications à forte charge de travail, notamment l'analytique, la vidéosurveillance, la sauvegarde et la restauration.</block>
+  <block id="bfba8e57d363decd591cc8c038377746" category="sidebar">Documentation du logiciel SANtricity 11.7</block>
+  <block id="48003406c3332bb90497a98f2d79b26a" category="sidebar">Interface SANtricity System Manager</block>
+  <block id="b4baa7fdabc903993aebeaaa5980c455" category="sidebar">Interface SANtricity Unified Manager</block>
+  <block id="cc7d84bc169e532a5a2672cfc52373b3" category="sidebar">Documents relatifs au logiciel SANtricity 11.7</block>
+  <block id="3089984c7abf64387bdc035943beae57" category="sidebar">Configuration de SANtricity System Manager</block>
+  <block id="61ed698df3699989d8d782fe430d2755" category="sidebar">Configuration de SANtricity Unified Manager</block>
+  <block id="aaf551c2d815af2da13ad25c18d2670e" category="sidebar">Lancez SANtricity System Manager</block>
 </blocks>
